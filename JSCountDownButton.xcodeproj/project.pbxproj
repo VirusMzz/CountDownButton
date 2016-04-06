@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E81FE7C1CB3ABF2007F8FAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E81FE7B1CB3ABF2007F8FAA /* main.m */; };
+		1E81FE7F1CB3ABF2007F8FAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E81FE7E1CB3ABF2007F8FAA /* AppDelegate.m */; };
+		1E81FE821CB3ABF2007F8FAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E81FE811CB3ABF2007F8FAA /* ViewController.m */; };
+		1E81FE851CB3ABF2007F8FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E81FE831CB3ABF2007F8FAA /* Main.storyboard */; };
+		1E81FE871CB3ABF2007F8FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E81FE861CB3ABF2007F8FAA /* Assets.xcassets */; };
+		1E81FE8A1CB3ABF2007F8FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E81FE881CB3ABF2007F8FAA /* LaunchScreen.storyboard */; };
+		1E81FE951CB3ABF2007F8FAA /* JSCountDownButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E81FE941CB3ABF2007F8FAA /* JSCountDownButtonTests.m */; };
+		1E81FEA01CB3ABF2007F8FAA /* JSCountDownButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E81FE9F1CB3ABF2007F8FAA /* JSCountDownButtonUITests.m */; };
+		1E81FEB51CB4997E007F8FAA /* JSCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E81FEB41CB4997E007F8FAA /* JSCountDownButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E81FE911CB3ABF2007F8FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E81FE6F1CB3ABF2007F8FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E81FE761CB3ABF2007F8FAA;
+			remoteInfo = JSCountDownButton;
+		};
+		1E81FE9C1CB3ABF2007F8FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E81FE6F1CB3ABF2007F8FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E81FE761CB3ABF2007F8FAA;
+			remoteInfo = JSCountDownButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E81FE771CB3ABF2007F8FAA /* JSCountDownButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSCountDownButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E81FE7B1CB3ABF2007F8FAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E81FE7D1CB3ABF2007F8FAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E81FE7E1CB3ABF2007F8FAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E81FE801CB3ABF2007F8FAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E81FE811CB3ABF2007F8FAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E81FE841CB3ABF2007F8FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E81FE861CB3ABF2007F8FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E81FE891CB3ABF2007F8FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E81FE8B1CB3ABF2007F8FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E81FE901CB3ABF2007F8FAA /* JSCountDownButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSCountDownButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E81FE941CB3ABF2007F8FAA /* JSCountDownButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCountDownButtonTests.m; sourceTree = "<group>"; };
+		1E81FE961CB3ABF2007F8FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E81FE9B1CB3ABF2007F8FAA /* JSCountDownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSCountDownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E81FE9F1CB3ABF2007F8FAA /* JSCountDownButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCountDownButtonUITests.m; sourceTree = "<group>"; };
+		1E81FEA11CB3ABF2007F8FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E81FEB31CB4997E007F8FAA /* JSCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCountDownButton.h; sourceTree = "<group>"; };
+		1E81FEB41CB4997E007F8FAA /* JSCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCountDownButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E81FE741CB3ABF2007F8FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E81FE8D1CB3ABF2007F8FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E81FE981CB3ABF2007F8FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E81FE6E1CB3ABF2007F8FAA = {
+			isa = PBXGroup;
+			children = (
+				1E81FEB31CB4997E007F8FAA /* JSCountDownButton.h */,
+				1E81FEB41CB4997E007F8FAA /* JSCountDownButton.m */,
+				1E81FE791CB3ABF2007F8FAA /* JSCountDownButton */,
+				1E81FE931CB3ABF2007F8FAA /* JSCountDownButtonTests */,
+				1E81FE9E1CB3ABF2007F8FAA /* JSCountDownButtonUITests */,
+				1E81FE781CB3ABF2007F8FAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E81FE781CB3ABF2007F8FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E81FE771CB3ABF2007F8FAA /* JSCountDownButton.app */,
+				1E81FE901CB3ABF2007F8FAA /* JSCountDownButtonTests.xctest */,
+				1E81FE9B1CB3ABF2007F8FAA /* JSCountDownButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E81FE791CB3ABF2007F8FAA /* JSCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				1E81FE7D1CB3ABF2007F8FAA /* AppDelegate.h */,
+				1E81FE7E1CB3ABF2007F8FAA /* AppDelegate.m */,
+				1E81FE801CB3ABF2007F8FAA /* ViewController.h */,
+				1E81FE811CB3ABF2007F8FAA /* ViewController.m */,
+				1E81FE831CB3ABF2007F8FAA /* Main.storyboard */,
+				1E81FE861CB3ABF2007F8FAA /* Assets.xcassets */,
+				1E81FE881CB3ABF2007F8FAA /* LaunchScreen.storyboard */,
+				1E81FE8B1CB3ABF2007F8FAA /* Info.plist */,
+				1E81FE7A1CB3ABF2007F8FAA /* Supporting Files */,
+			);
+			path = JSCountDownButton;
+			sourceTree = "<group>";
+		};
+		1E81FE7A1CB3ABF2007F8FAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E81FE7B1CB3ABF2007F8FAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E81FE931CB3ABF2007F8FAA /* JSCountDownButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E81FE941CB3ABF2007F8FAA /* JSCountDownButtonTests.m */,
+				1E81FE961CB3ABF2007F8FAA /* Info.plist */,
+			);
+			path = JSCountDownButtonTests;
+			sourceTree = "<group>";
+		};
+		1E81FE9E1CB3ABF2007F8FAA /* JSCountDownButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E81FE9F1CB3ABF2007F8FAA /* JSCountDownButtonUITests.m */,
+				1E81FEA11CB3ABF2007F8FAA /* Info.plist */,
+			);
+			path = JSCountDownButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E81FE761CB3ABF2007F8FAA /* JSCountDownButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E81FEA41CB3ABF2007F8FAA /* Build configuration list for PBXNativeTarget "JSCountDownButton" */;
+			buildPhases = (
+				1E81FE731CB3ABF2007F8FAA /* Sources */,
+				1E81FE741CB3ABF2007F8FAA /* Frameworks */,
+				1E81FE751CB3ABF2007F8FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSCountDownButton;
+			productName = JSCountDownButton;
+			productReference = 1E81FE771CB3ABF2007F8FAA /* JSCountDownButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E81FE8F1CB3ABF2007F8FAA /* JSCountDownButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E81FEA71CB3ABF2007F8FAA /* Build configuration list for PBXNativeTarget "JSCountDownButtonTests" */;
+			buildPhases = (
+				1E81FE8C1CB3ABF2007F8FAA /* Sources */,
+				1E81FE8D1CB3ABF2007F8FAA /* Frameworks */,
+				1E81FE8E1CB3ABF2007F8FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E81FE921CB3ABF2007F8FAA /* PBXTargetDependency */,
+			);
+			name = JSCountDownButtonTests;
+			productName = JSCountDownButtonTests;
+			productReference = 1E81FE901CB3ABF2007F8FAA /* JSCountDownButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E81FE9A1CB3ABF2007F8FAA /* JSCountDownButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E81FEAA1CB3ABF2007F8FAA /* Build configuration list for PBXNativeTarget "JSCountDownButtonUITests" */;
+			buildPhases = (
+				1E81FE971CB3ABF2007F8FAA /* Sources */,
+				1E81FE981CB3ABF2007F8FAA /* Frameworks */,
+				1E81FE991CB3ABF2007F8FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E81FE9D1CB3ABF2007F8FAA /* PBXTargetDependency */,
+			);
+			name = JSCountDownButtonUITests;
+			productName = JSCountDownButtonUITests;
+			productReference = 1E81FE9B1CB3ABF2007F8FAA /* JSCountDownButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E81FE6F1CB3ABF2007F8FAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = V;
+				TargetAttributes = {
+					1E81FE761CB3ABF2007F8FAA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1E81FE8F1CB3ABF2007F8FAA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1E81FE761CB3ABF2007F8FAA;
+					};
+					1E81FE9A1CB3ABF2007F8FAA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1E81FE761CB3ABF2007F8FAA;
+					};
+				};
+			};
+			buildConfigurationList = 1E81FE721CB3ABF2007F8FAA /* Build configuration list for PBXProject "JSCountDownButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E81FE6E1CB3ABF2007F8FAA;
+			productRefGroup = 1E81FE781CB3ABF2007F8FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E81FE761CB3ABF2007F8FAA /* JSCountDownButton */,
+				1E81FE8F1CB3ABF2007F8FAA /* JSCountDownButtonTests */,
+				1E81FE9A1CB3ABF2007F8FAA /* JSCountDownButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E81FE751CB3ABF2007F8FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E81FE8A1CB3ABF2007F8FAA /* LaunchScreen.storyboard in Resources */,
+				1E81FE871CB3ABF2007F8FAA /* Assets.xcassets in Resources */,
+				1E81FE851CB3ABF2007F8FAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E81FE8E1CB3ABF2007F8FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E81FE991CB3ABF2007F8FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E81FE731CB3ABF2007F8FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E81FEB51CB4997E007F8FAA /* JSCountDownButton.m in Sources */,
+				1E81FE821CB3ABF2007F8FAA /* ViewController.m in Sources */,
+				1E81FE7F1CB3ABF2007F8FAA /* AppDelegate.m in Sources */,
+				1E81FE7C1CB3ABF2007F8FAA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E81FE8C1CB3ABF2007F8FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E81FE951CB3ABF2007F8FAA /* JSCountDownButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E81FE971CB3ABF2007F8FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E81FEA01CB3ABF2007F8FAA /* JSCountDownButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E81FE921CB3ABF2007F8FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E81FE761CB3ABF2007F8FAA /* JSCountDownButton */;
+			targetProxy = 1E81FE911CB3ABF2007F8FAA /* PBXContainerItemProxy */;
+		};
+		1E81FE9D1CB3ABF2007F8FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E81FE761CB3ABF2007F8FAA /* JSCountDownButton */;
+			targetProxy = 1E81FE9C1CB3ABF2007F8FAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E81FE831CB3ABF2007F8FAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E81FE841CB3ABF2007F8FAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E81FE881CB3ABF2007F8FAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E81FE891CB3ABF2007F8FAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E81FEA21CB3ABF2007F8FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E81FEA31CB3ABF2007F8FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E81FEA51CB3ABF2007F8FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSCountDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = panda.com.JSCountDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E81FEA61CB3ABF2007F8FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSCountDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = panda.com.JSCountDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E81FEA81CB3ABF2007F8FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSCountDownButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = panda.com.JSCountDownButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSCountDownButton.app/JSCountDownButton";
+			};
+			name = Debug;
+		};
+		1E81FEA91CB3ABF2007F8FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSCountDownButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = panda.com.JSCountDownButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSCountDownButton.app/JSCountDownButton";
+			};
+			name = Release;
+		};
+		1E81FEAB1CB3ABF2007F8FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSCountDownButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = panda.com.JSCountDownButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSCountDownButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1E81FEAC1CB3ABF2007F8FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSCountDownButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = panda.com.JSCountDownButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSCountDownButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E81FE721CB3ABF2007F8FAA /* Build configuration list for PBXProject "JSCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E81FEA21CB3ABF2007F8FAA /* Debug */,
+				1E81FEA31CB3ABF2007F8FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E81FEA41CB3ABF2007F8FAA /* Build configuration list for PBXNativeTarget "JSCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E81FEA51CB3ABF2007F8FAA /* Debug */,
+				1E81FEA61CB3ABF2007F8FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E81FEA71CB3ABF2007F8FAA /* Build configuration list for PBXNativeTarget "JSCountDownButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E81FEA81CB3ABF2007F8FAA /* Debug */,
+				1E81FEA91CB3ABF2007F8FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E81FEAA1CB3ABF2007F8FAA /* Build configuration list for PBXNativeTarget "JSCountDownButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E81FEAB1CB3ABF2007F8FAA /* Debug */,
+				1E81FEAC1CB3ABF2007F8FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E81FE6F1CB3ABF2007F8FAA /* Project object */;
+}
